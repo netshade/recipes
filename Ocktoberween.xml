@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<RECIPES>
+    <RECIPE>
+        <FERMENTABLES>
+            <FERMENTABLE>
+                <NAME>US Caramel 80L Malt</NAME>
+                <VERSION>1</VERSION>
+                <YIELD>72.000000</YIELD>
+                <COLOR>80.000000</COLOR>
+                <AMOUNT>0.205009</AMOUNT>
+                <NOTES>In Mash/Steeped</NOTES>
+                <TYPE>Grain</TYPE>
+            </FERMENTABLE>
+            <FERMENTABLE>
+                <NAME>German Munich Malt</NAME>
+                <VERSION>1</VERSION>
+                <YIELD>81.000000</YIELD>
+                <COLOR>5.500000</COLOR>
+                <AMOUNT>0.205009</AMOUNT>
+                <NOTES>In Mash/Steeped</NOTES>
+                <TYPE>Grain</TYPE>
+            </FERMENTABLE>
+            <FERMENTABLE>
+                <NAME>US Pale Ale Malt</NAME>
+                <VERSION>1</VERSION>
+                <YIELD>78.500000</YIELD>
+                <COLOR>3.500000</COLOR>
+                <AMOUNT>0.205009</AMOUNT>
+                <NOTES>In Mash/Steeped</NOTES>
+                <TYPE>Grain</TYPE>
+            </FERMENTABLE>
+            <FERMENTABLE>
+                <NAME>US Chocolate Malt</NAME>
+                <VERSION>1</VERSION>
+                <YIELD>73.000000</YIELD>
+                <COLOR>350.000000</COLOR>
+                <AMOUNT>0.102505</AMOUNT>
+                <NOTES>In Mash/Steeped</NOTES>
+                <TYPE>Grain</TYPE>
+            </FERMENTABLE>
+            <FERMENTABLE>
+                <NAME>Extract - Traditional Dark Liquid Extract</NAME>
+                <VERSION>1</VERSION>
+                <YIELD>80.000000</YIELD>
+                <COLOR>35.000000</COLOR>
+                <AMOUNT>2.706125</AMOUNT>
+                <NOTES>Start Of Boil</NOTES>
+                <TYPE>Extract</TYPE>
+            </FERMENTABLE>
+        </FERMENTABLES>
+        <HOPS>
+            <HOP>
+                <NAME>German Hallertauer Magnum</NAME>
+                <VERSION>1</VERSION>
+                <ALPHA>11.000000</ALPHA>
+                <AMOUNT>0.014175</AMOUNT>
+                <NOTES>60 Min From End</NOTES>
+                <USE>Boil</USE>
+                <TIME>60</TIME>
+                <FORM>Pellet</FORM>
+            </HOP>
+            <HOP>
+                <NAME>German Hallertauer Magnum</NAME>
+                <VERSION>1</VERSION>
+                <ALPHA>11.000000</ALPHA>
+                <AMOUNT>0.014175</AMOUNT>
+                <NOTES>15 Min From End</NOTES>
+                <USE>Boil</USE>
+                <TIME>15</TIME>
+                <FORM>Pellet</FORM>
+            </HOP>
+            <HOP>
+                <NAME>German Hallertauer Magnum</NAME>
+                <VERSION>1</VERSION>
+                <ALPHA>11.000000</ALPHA>
+                <AMOUNT>0.014175</AMOUNT>
+                <NOTES>1 Min From End</NOTES>
+                <USE>Boil</USE>
+                <TIME>1</TIME>
+                <FORM>Pellet</FORM>
+            </HOP>
+        </HOPS>
+        <YEASTS>
+            <YEAST>
+                <NAME>Wyeast 1007-German Ale</NAME>
+                <VERSION>1</VERSION>
+                <ATTENUATION>77.911591</ATTENUATION>
+                <FORM>Liquid</FORM>
+                <TYPE>Ale</TYPE>
+                <AMOUNT>0.135000</AMOUNT>
+                <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+            </YEAST>
+        </YEASTS>
+        <MISCS>
+            <MISC>
+                <NOTES>In Mash</NOTES>
+                <NAME>Irish Moss</NAME>
+                <VERSION>1</VERSION>
+                <TYPE>Other</TYPE>
+                <USE>Mash</USE>
+                <TIME>i</TIME>
+                <AMOUNT>0.009441</AMOUNT>
+            </MISC>
+        </MISCS>
+        <STYLE>
+            <CATEGORY>Dark Lager</CATEGORY>
+            <NAME>Munich Dunkel</NAME>
+            <VERSION>1</VERSION>
+            <TYPE>Lager</TYPE>
+            <CATEGORY_NUMBER>4</CATEGORY_NUMBER>
+            <STYLE_LETTER>B</STYLE_LETTER>
+            <OG_MIN>1.048</OG_MIN>
+            <OG_MAX>1.056</OG_MAX>
+            <IBU_MIN>18</IBU_MIN>
+            <IBU_MAX>28</IBU_MAX>
+            <COLOR_MIN>14</COLOR_MIN>
+            <COLOR_MAX>28</COLOR_MAX>
+            <FG_MIN>1.012</FG_MIN>
+            <FG_MAX>1.014</FG_MAX>
+        </STYLE>
+        <WATERS>
+            <WATER>
+                <NAME>The brewer's water</NAME>
+                <VERSION>1</VERSION>
+                <AMOUNT>23.429995</AMOUNT>
+                <SULFATE>0.000000</SULFATE>
+                <CALCIUM>0.000000</CALCIUM>
+                <MAGNESIUM>0.000000</MAGNESIUM>
+                <CHLORIDE>0.000000</CHLORIDE>
+                <SODIUM>0.000000</SODIUM>
+                <BICARBONATE>0.000000</BICARBONATE>
+            </WATER>
+        </WATERS>
+        <MASH>
+            <NAME>Single Step Infusion (66C/151F) w/Mash Out</NAME>
+            <VERSION>1</VERSION>
+            <GRAIN_TEMP>20</GRAIN_TEMP>
+            <MASH_STEPS>
+                <MASH_STEP>
+                    <NAME>Rest at</NAME>
+                    <VERSION>1</VERSION>
+                    <TYPE>Infusion</TYPE>
+                    <INFUSE_AMOUNT>0.0</INFUSE_AMOUNT>
+                    <STEP_TEMP>66.000000</STEP_TEMP>
+                    <STEP_TIME>60.000000</STEP_TIME>
+                    <RAMP_TIME>0</RAMP_TIME>
+                </MASH_STEP>
+                <MASH_STEP>
+                    <NAME>Raise to and Mash out at</NAME>
+                    <VERSION>1</VERSION>
+                </MASH_STEP>
+            </MASH_STEPS>
+        </MASH>
+        <NAME>Ocktoberween 2012</NAME>
+        <VERSION>1</VERSION>
+        <TYPE>Partial Mash</TYPE>
+        <BREWER>Chris Zelenak</BREWER>
+        <BATCH_SIZE>15.217348</BATCH_SIZE>
+        <BOIL_SIZE>22.712461</BOIL_SIZE>
+        <BOIL_TIME>90</BOIL_TIME>
+        <EFFICIENCY>75.000000</EFFICIENCY>
+        <NOTES>Not really a lager, it's a Marzen Ale
+
+Crush grains and put in large grain bag.  Steep grain bag in one gallon of water at 150F for 30-40minutes.  Remove bag and rinse or let drain into kettle.  Bring grain tea to boil.  Add extracts.  Once boil is reachieved start 75min boil.  With 60min remaining add first 1oz hop addition, 15min remaining add second 1oz hop addition and Irish Moss, add 0.5oz addition just before the flame is killed (2 minutes).
+
+Fermentation:  Be prepared to ferment on the cool side.  Use a good clean neutral flavored yeast that can ferment well at 65F.  Pitch a larger start than normal or use two vials of yeast, better pitched onto some yeast cake from a previous brew.  Be patient with fermentation at cooler temps (60-65F).  Rouse yeast after 5 days of fermenatation to be sure yeast stays in suspension.  This will help drive the beer to the final gravity.  Leave beer in primary ferment for 3 weeks, secondary ferment for 3 weeks to clear, then bottle as normal.
+
+US Caramel 80L (Briess Crystal 80L): $1.15
+US Pale Ale malt (Rahr 2 Row 1.9-2.0L): $0.63
+US Chocolate malt (Chocolate Malt): $0.62
+Liquid malt extract: $14.40
+Hops: $2.99
+Yeast: $6.99
+--------------------------
+$26.78
+
+Assuming $28 total cost, missing munich malt
+$0.70 per pint
+$4.20 per six pack
+
+Tasting; VERY GOOD, mellow but tastes awesome, should be great
+Gravity: 1.050
+
+Pitched yeast at 85-88 degrees, used yeast starter that sat for roughly 24 hours - 1 cup LME starter
+
+Foaming through airlock in morning after 12-15 hours fermenting, added blow off tube
+
+Learned later fermentation range should have been much lower than when i pitched, 50-60 range.  Said bad flavors are of burnt rubber variety.  Immediately moved to fridge downstairs ( runs around 50 ) but the blow off growler already had a pronounced burnt rubber smell to it.  will give it some time and see what happens.
+moved to fridge, fridge temp is high 40's, will see if this gets it to a better fermentation temp
+Tested wort in fridge, looks like 62F-64F.  We'll see if it stays in that temperature range tomorrow and following day, if so can afford to just forget it.
+Thermometer was calibrated 10 degrees above actual.  recalibrated and tested, fridge wort temp was 48-50 degrees.  added a timer based socket plug to cycle the fridge power, following morning fridge was sitting at 50, bubble showing in airlock.
+Transferred to secondary / racked, looks like maybe 4 gal yield.  Secondary is a 6 gal carboy. Hydrometer reading is 1.011
+</NOTES>
+        <PRIMARY_TEMP>18.0</PRIMARY_TEMP>
+    </RECIPE>
+</RECIPES>
